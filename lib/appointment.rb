@@ -1,7 +1,7 @@
 class appointment
   attr_accessor :name, :doctor, :patients
 
-  def initialize(name)
+  def initialize(name, patients)
     @name = name
     @patients = []
   end
